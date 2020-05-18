@@ -133,6 +133,7 @@ public class CtSph implements Sph {
             return new CtEntry(resourceWrapper, null, context);
         }
 
+        // 创建一条完整的Chain,
         ProcessorSlot<Object> chain = lookProcessChain(resourceWrapper);
 
         /*

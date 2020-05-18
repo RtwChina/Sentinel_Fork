@@ -33,6 +33,10 @@ import java.util.List;
  */
 public class DefaultSlotChainBuilder implements SlotChainBuilder {
 
+    /**
+     * 塞入processor slot至链条中
+     * @return
+     */
     @Override
     public ProcessorSlotChain build() {
         ProcessorSlotChain chain = new DefaultProcessorSlotChain();
